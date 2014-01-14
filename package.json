@@ -16,7 +16,7 @@
     "nodejs"
   ],
   "contributors": [
-    "sergeyt <stodyshev@gmail.com>"
+    "Sergey Todyshev <stodyshev@gmail.com>"
   ],
   "dependencies": {
     "q": "~1.0.0",
