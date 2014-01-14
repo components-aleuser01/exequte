@@ -31,9 +31,11 @@ module.exports = (cmd, args, options) ->
 	stderr = ''
 
 	child.stdout.on 'data', (data) ->
+		stdout += '\n' if stdout
 		stdout += data?.toString().trim()
 
 	child.stderr.on 'data', (data) ->
+		stderr += '\n' if stderr
 		stderr += data?.toString().trim()
 
 	child.on 'error', (err) ->
