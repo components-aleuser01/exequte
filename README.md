@@ -27,7 +27,7 @@ exec('git', ['help']).then(function(out){
 ### CoffeeScript Example
 
 ```coffeescript
-exec = require '../index'
+exec = require 'exequte'
 
 exec('git', ['help'])
 	.then (out) ->
