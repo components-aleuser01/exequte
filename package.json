@@ -16,7 +16,8 @@
     "nodejs"
   ],
   "contributors": [
-    "Sergey Todyshev <stodyshev@gmail.com>"
+    "Sergey Todyshev <stodyshev@gmail.com>",
+    "Teoh Han Hui <teohhanhui@gmail.com>"
   ],
   "dependencies": {
     "q": "~1.0.0",
