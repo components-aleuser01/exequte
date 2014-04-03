@@ -1,12 +1,15 @@
-# exequte
-
-> Nodejs function to execute child process in promise style
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://drone.io/github.com/sergeyt/exequte/status.png)](https://drone.io/github.com/sergeyt/exequte/latest)
 
 [![NPM version](https://badge.fury.io/js/exequte.png)](http://badge.fury.io/js/exequte)
-[![Build Status](https://drone.io/github.com/sergeyt/exequte/status.png)](https://drone.io/github.com/sergeyt/exequte/latest)
 [![Deps Status](https://david-dm.org/sergeyt/exequte.png)](https://david-dm.org/sergeyt/exequte)
+[![devDependency Status](https://david-dm.org/sergeyt/exequte/dev-status.png)](https://david-dm.org/sergeyt/exequte#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/exequte.png?downloads=true&stars=true)](https://nodei.co/npm/exequte/)
+
+# exequte
+
+Nodejs function to execute child process in promise style
 
 ## Usage
 
