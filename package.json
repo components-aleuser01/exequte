@@ -1,6 +1,6 @@
 {
   "name": "exequte",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nodejs function to execute child process in promise style",
   "author": "Sergey Todyshev <stodyshev@gmail.com>",
   "main": "index.js",
