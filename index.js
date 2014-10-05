@@ -63,7 +63,13 @@ module.exports = function(cmd, args, options) {
 			return;
 		}
 		if (stderr) {
+			if (opts.verbose) {
+				console.error(stderr);
+			}
 			return def.reject(stderr);
+		}
+		if (opts.verbose) {
+			console.error(stdout);
 		}
 		return def.resolve(stdout);
 	});
